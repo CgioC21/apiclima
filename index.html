@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Formulario Ejemplo</title>
+    <link rel="stylesheet" href="styles/styles.css">
+
+</head>
+<body>
+    <form id="form-login">
+        <div id="selecFecha">
+            <label for="start">Fecha a seleccionar:</label>
+            <input type="date" id="start" name="trip-start"
+            value="<?php echo date('Y-m-d'); ?>"
+            min="2023-01-01" max="2023-12-31">
+        </div>
+        
+        <input type="submit" value="Mostrar clima">
+
+    </form>
+
+    <div id="divResultados">
+
+        <div id="divTemperatura"></div>
+
+        <div id="divClimaAmanecer"></div>
+        <div id="divClimaTarde"></div>
+        <div id="divClimaNoche"></div>
+
+    </div>
+    
+    <script type = "text/javascript" src="index.js"></script>
+</body>
+</html>

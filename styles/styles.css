@@ -1,0 +1,98 @@
+
+    body{
+        background-color: #1a1a1a; /* color de fondo oscuro */
+    }
+
+     #selecFecha{
+        height: 100px;
+    }
+   
+   form{
+        border-radius: 25px;
+        border-width: medium;
+        border-style: double;
+        text-align: center;
+        padding: 30px;
+        background-color: #1a1a1a; /* color de fondo oscuro */
+        color: #fff; /* color de texto blanco */
+        font-family: Arial, sans-serif; /* cambiar la fuente */
+    }
+    
+    label{
+        float:left;
+        clear:both;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        margin-bottom: 10px; /* agregar un margen inferior */
+    }
+
+    input,
+    label {
+        margin: 0.4rem 0;
+    }
+    
+    input[type="submit"]{
+        clear:both;
+        display:block;
+        margin: 0 auto; /* centrar horizontalmente */
+        width: 200px; /* aumentar el ancho del botón */
+        height: 40px; /* aumentar la altura del botón */
+        border: none; /* eliminar el borde */
+        border-radius: 5px; /* agregar un borde redondeado */
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        background-color: #007bff;
+        color: #fff;
+        cursor: pointer; /* cambiar el cursor al pasar por encima */
+    }
+    
+    input[type="submit"]:hover{
+        background-color:  #fff;/* cambiar el color de fondo al pasar por encima */
+        color: #1a1a1a;  /* cambiar el color del texto al pasar por encima */
+    }
+
+    #divResultados{
+        width: 500px;
+        padding: 10%;
+    }
+
+    #divTemperatura {
+        padding: 10px;
+        width: 400px;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 60px; /* aumentar el tamaño de la fuente */
+        color: lightgrey
+    }
+    
+    #divClimaAmanecer{
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        color: lightgrey
+    }
+
+    #divClimaTarde{
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        color: lightgrey;
+    }
+
+    #divClimaNoche{
+        padding: 15px;
+        display: inline-block;
+        font-family: 'Roboto', sans-serif; /* cambiar la fuente */
+        font-size: 16px; /* aumentar el tamaño de la fuente */
+        color: lightgrey;
+    }
+
+    #divClimaAmanecer img,
+    #divClimaTarde img,
+    #divClimaNoche img {
+        max-width: 100px;
+        height: auto;
+    }
+
+    
